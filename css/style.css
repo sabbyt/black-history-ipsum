@@ -1,3 +1,13 @@
+img{
+  max-width: 300px;
+  max-height: 300px;
+
+}
+img:hover{
+  border: solid;
+
+}
+
 body {
    background-color: darkseagreen;
 }
@@ -32,7 +42,7 @@ nav, footer {
 nav ul {
    margin: 0px;
    padding: 5px 0px 5px 50px;
-   
+
 }
 
 nav li a {
@@ -48,7 +58,7 @@ nav li a:hover, nav li a.current {
 
 li {
    display: inline-block;
-   
+
 }
 
 
@@ -168,13 +178,13 @@ section.west {
    height: 600px;
    margin: 50px;
 }
- 
+
 
 
 article.coates {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -186,7 +196,7 @@ article.coates {
 article.douglass {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -198,7 +208,7 @@ article.douglass {
 article.dubois {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -210,7 +220,7 @@ article.dubois {
 article.garvey {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -222,7 +232,7 @@ article.garvey {
 article.hooks {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -234,7 +244,7 @@ article.hooks {
 article.king {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -246,7 +256,7 @@ article.king {
 article.lincoln {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -258,7 +268,7 @@ article.lincoln {
 article.malcolmx {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -270,7 +280,7 @@ article.malcolmx {
 article.obama {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -282,7 +292,7 @@ article.obama {
 article.truth {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -294,7 +304,7 @@ article.truth {
 article.washington {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -306,7 +316,7 @@ article.washington {
 article.wells {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -318,7 +328,7 @@ article.wells {
 article.west {
    background-color: cornsilk;
    background-position: relative;
-   width: 40%;  
+   width: 40%;
    border: 2px solid white;
    padding: 10px;
    margin: 50px;
@@ -326,5 +336,3 @@ article.west {
    text-align: center;
    z-index: 50;
 }
-
-
