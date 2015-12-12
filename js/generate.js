@@ -33,9 +33,7 @@ var clicked = function(event) {
   //BEGIN IPSUM GENERATOR
   for (var i = 0; i < authorData.length; i++) {
     if (formAuthor == authorData[i].shortname) {
-      console.log(authorData[i]);
       str = authorData[i].text;
-      console.log(str);
     }
   }
   //var counter = 0
@@ -168,14 +166,6 @@ function keepFont() {
     }
   }
 }
-
-$(document).ready(function(){
-  fillAuthor();
-  keepQuantity();
-  keepParWord();
-  fillCheckbox();
-  keepFont();
-});
 
 //Event Listener for 'Generate Ipsum' Button
 var generate = $('#generate').on('click', clicked);

@@ -5,6 +5,6 @@ var hideArticles = function() {
     $(this).parent().find('div').fadeIn();
     $('img').click(function() {
       $('div').hide();
-    })
-  })
+    });
+  });
 };

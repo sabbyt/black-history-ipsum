@@ -1,0 +1,47 @@
+/*LAYOUT*/
+.header {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'lora';
+}
+
+.footer {
+  background-color: #c9d8c5;
+  margin: 10px;
+  padding: 20px;
+}
+
+.authorBio {
+  width: 100%;
+  padding: 1em;
+}
+
+.indivAuthorBio {
+  min-width: 28%;
+  max-width: 28%;
+  display: inline-block;
+  padding: 1em;
+  text-align: center;
+  margin: 0.5em;
+}
+
+.team {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  column-width: 45%;
+  height: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.teamPage {
+  padding: 10px;
+  font-family: 'lora';
+  font-size: 16px;
+}
+
+.thead {
+  text-align: center;
+  display: block;
+}

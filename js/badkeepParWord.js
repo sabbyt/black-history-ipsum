@@ -8,10 +8,9 @@ function keepParWord() {
       getWord.checked = true;
     }
   }
-};
+}
 
-
-var formQuantity = document.getElementById('quantity');
+var formQuantity = $('#quantity');
 
 function keepQuantity() {
   if (localStorage.getItem("select")) {
@@ -21,5 +20,6 @@ function keepQuantity() {
       formQuantity.selected = "selected";
     }
   }
-};
+}
+
 keepQuantity();

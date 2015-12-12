@@ -1,0 +1,25 @@
+/*STATE*/
+img:hover{
+  border: solid;
+}
+
+h3.displayed {
+  text-align: center;
+  padding: 0.5em;
+  font-size: 18px;
+}
+
+img.displayed {
+    display: block;
+    margin: auto;
+}
+
+p.displayed {
+  text-align: center;
+  margin: 20px;
+  font-size: 1em;
+}
+
+nav li a:hover {
+   color: green;
+}
