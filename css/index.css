@@ -40,6 +40,7 @@ h3 {
   border-radius: 10px;
   padding: 10px;
 }
+
 .nav2 {
   height: 120px;
   text-align: center;
@@ -58,7 +59,7 @@ h3 {
   margin: 40px;
   margin-top: 160px;
   border-radius: 10px;
-  background-color: wheat;
+  background-color: transparent;
   padding: 20px;
   height: 400px;
 }
@@ -69,7 +70,6 @@ h3 {
 }
 
 .gentext {
-  background-color: wheat;
   padding: 20px;
   margin: 40px;
   border-radius: 10px;
@@ -80,6 +80,7 @@ h3 {
   margin: 10px;
   padding: 20px;
 }
+
 .o2 {
   font-family: 'Oxygen';
 }
