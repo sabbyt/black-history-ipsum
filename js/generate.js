@@ -1,5 +1,6 @@
+var ipsum = {};
 //this function will run onClick. Logs the form data for localstorage, gets text data, and manipulates text based on form submission.
-var clicked = function(event) {
+ipsum.clicked = function(event) {
   event.preventDefault();
   //Following Lines assign variables to user inputs in the html form, Logs to console and places them in an array.
   var formAuthor = $('#authorname').val();
@@ -9,18 +10,14 @@ var clicked = function(event) {
 
   if ($('#para input:checked')) {
     formParaWords = "Paragraphs";
-    console.log(formParaWords);
   } else if ($('#words input:checked')) {
     formParaWords = "Words";
-    console.log(formParaWords);
   }
 
   if ($('#pTag input:checked')) {
     formPTag = true;
-    console.log(formPTag);
   } else {
     formPTag = false;
-    console.log(formPTag);
   }
 
   var formFont = $('#fontname').val();
@@ -54,7 +51,6 @@ var clicked = function(event) {
       j.push("<p>" + "&lt;p&gt" + parag[l] + "&lt/p&gt");
     }
       str = j;
-      console.log(str);
 
   } else if (formParaWords === "Words" && formPTag) {
     //take str and split it into a new string with only num words and wrap it in ptags
@@ -72,7 +68,6 @@ var clicked = function(event) {
         j.push("<p>" + parag[n]);
       }
         str = j;
-        console.log(str);
   } else if (formParaWords === "Words") {
     str = str.split(" ").splice(0,num).join(" ");
   }
@@ -140,7 +135,7 @@ function keepParWord() {
 //check local storage for form content and repopulate checkbox
 var checkBox = $('#pTag');
 
-function fillCheckbox() {
+ipsum.fillCheckbox = function() {
   if (localStorage.getItem("select")) {
     var getForm = localStorage.getItem("select");
     getForm = JSON.parse(getForm);
@@ -148,7 +143,7 @@ function fillCheckbox() {
       checkBox.checked = true;
     }
   }
-}
+};
 
 //check local storage for form content and repopulate dropdown menue for fonts
 var fonts = $('#fontname').val();
@@ -167,5 +162,4 @@ function keepFont() {
   }
 }
 
-//Event Listener for 'Generate Ipsum' Button
-var generate = $('#generate').on('click', clicked);
+var generate = $('#generate').on('click', ipsum.clicked);

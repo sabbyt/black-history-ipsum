@@ -1,4 +1,6 @@
-var hideArticles = function() {
+var authorsPage = {};
+
+authorsPage.hideArticles = function() {
   $('article .bio').hide();
   $('img').on('click', function(event) {
     event.preventDefault();

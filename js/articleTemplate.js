@@ -1,7 +1,7 @@
 var theTemplate;
 var content = {};
 
-var articleRun = function() {
+authorsPage.articleRun = function() {
 
 $.get('../template/template.handlebars', function(data) {
     theTemplate = Handlebars.compile(data);
@@ -9,10 +9,10 @@ $.get('../template/template.handlebars', function(data) {
   content.authorList = authorData.map(theTemplate);
   content.authorList.forEach(function(el) {
     $('#authorBio').append(el);
-    hideArticles();
+    authorsPage.hideArticles();
   });
   });
 
 };
 
-articleRun();
+authorsPage.articleRun();
