@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Authors Found on This Site</title>
+    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/state.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+  </head>
 
-<head>
-  <title>Authors Found on This Site</title>
-  <link href="css/style.css" type="text/css" rel="stylesheet" />
-</head>
+  <body>
+    <header class="header">
+      <h1 class="thead">About The Authors</h1>
+      <div class="nav">
+        <h1><a href="index.html">The Black History Ipsum</a></h1>
+        <h2><a href="author.html">The Sources</a></h2>
+        <h2><a href="team.html">The Team</a></h2>
+      </div>
+    </header>
 
-<body>
-
-  <header>
-    <h1>THE BLACK HISTORY IPSUM</h1>
-      <nav>
-        <ul>
-          <li><h3><a href="index.html">IPSUM Home</a></h3></li>
-          <li><h3><a href="team.html">THE TEAM</a></h3></li>
-          <li><h3><a href="author.html">THE SOURCES</a></h3></li>
-        </ul>
-      </nav>
-  </header>
-
-  <section id="authorBio"></section>
+    <section id="authorBio"></section>
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/handlebars-v4.0.5.js"></script>
-  <script type="text/javascript" src="js/authordata.js"></script>
+  <script type="text/javascript" src="vendor/handlebars-v4.0.5.js"></script>
+  <script type="text/javascript" src="data/authordata.js"></script>
   <script type="text/javascript" src="js/authorRender.js"></script>
   <script type="text/javascript" src="js/articleTemplate.js"></script>
   </body>

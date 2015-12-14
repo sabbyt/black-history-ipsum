@@ -1,0 +1,54 @@
+/*BASE SMACSS*/
+header, body, h1, h2, h3, h4, h5, h6, p, a, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: Garamond;
+}
+
+body {
+   background-color: #c9d8c5;
+}
+
+h1 {
+   color: #fbefdf;
+   font-size: 2em;
+   font-family: 'lora';
+}
+
+h2 {
+  color: #006600;
+  font-size: 1.5em;
+  font-family: 'lora';
+}
+
+h3 {
+  font-size: 1.4em;
+  font-family: 'lora';
+}
+
+h4 {
+   color: #006600;
+}
+
+p {
+   text-align: left;
+}
+
+img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+li {
+   display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}

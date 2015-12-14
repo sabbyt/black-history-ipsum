@@ -1,12 +1,10 @@
-test-ardian
-test2-ardian
-
-# black-history-ipsum
+# Black-history-ipsum
 
 A lorem ipsum generator featuring black history
 
-A project by Jasmine, Heidi, & Sam J for codefellows Code 201
+A project by Jasmine, Heidi, & Sam J for Code Fellows Code 201
 
+Refactored by Ardian Ajvazi, Erika Hokanson and Sabrina Tee
 
 ####Licensing
 

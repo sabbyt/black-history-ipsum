@@ -2,14 +2,19 @@
 <html>
   <head>
     <title>Black History Ipsum</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="vendor/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="stylesheet" type="text/css" href="css/module.css">
+    <link rel="stylesheet" type="text/css" href="css/state.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
     <link href='https://fonts.googleapis.com/css?family=Lora|Poiret+One|Oxygen|Amatic+SC|Changa+One|Permanent+Marker' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
     <header class="header">
-      <div class="nav2">
+      <h1 class="thead">The Black History Ipsum</h1>
+      <div class="nav">
         <h1><a href="index.html">The Black History Ipsum</a></h1>
         <h2><a href="author.html">The Sources</a></h2>
         <h2><a href="team.html">The Team</a></h2>
@@ -43,16 +48,17 @@
           <input type="number" name="" id="quantity"><br>
           <br>
 
-          <input type="radio" name="q" id="para" >
+          <input type="radio" name="q" id="para">
           <label>Paragraphs</label>
           <br>
-          <input type="radio" name="q" id="words" >
+          <input type="radio" name="q" id="words">
           <label>Words</label>
           <br>
           <br>
 
-          <input type="checkbox" name="checkBox" id="pTag" value="checked" >
-          <label>Add paragraph tags </label><br>
+          <input type="checkbox" name="checkBox" id="pTag" value="checked">
+          <label>Add paragraph tags </label>
+          <br>
           <br>
 
           <label>Font Choice: </label><br>
@@ -64,8 +70,8 @@
           </select><br>
           <br>
 
-          <button id="generate" /> Generate Ipsum </button>
-          <input type="hidden" /><br>
+          <button id="generate"/>Generate Ipsum</button>
+          <input type="hidden"/><br>
           <br>
 
         </form>
@@ -73,13 +79,13 @@
     </div>
 
     <div class="gentext">
-      <section class="gentextbox" id="generatedtext">
-      </section>
+      <section class="gentextbox" id="generatedtext"></section>
     </div>
 
   <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-  <script type="text/javascript" src="js/authordata.js"></script>
-  <script src="js/generate.js" type="text/javascript" charset="utf-8" async defer></script>
+  <script type="text/javascript" src="data/authordata.js"></script>
+  <script type="text/javascript" src="js/generate.js" charset="utf-8" async defer></script>
+  <script type="text/javascript" src="js/index.js"></script>
   </body>
 
   <footer class="footer">This website was a final project for Code Fellows Bootcamp, 2015.</footer>
